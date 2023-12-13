@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Memoria | login</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <script defer src="./js/login.js"></script>
+</head>
+<body>
+    <div class="box1">
+        <h3>sobre o jogo:</h3>
+        <div class="text">
+            Encontre os pares de cartas idênticas clicando em uma carta para revelar sua imagem e depois em outra para encontrar a correspondência. 
+            Conclua o jogo ao encontrar todos os pares. Divirta-se desafiando sua memória! 🧠🎮
+        </div>
+    </div>
+
+    <div class="box2">
+        <h3>Curiosidades:</h3>
+        <div class="text2">
+            A memória humana é notável! Você sabia que a maioria das pessoas pode lembrar de aproximadamente 7 itens em sequência? Explore mais sobre o incrível poder da sua memória.
+        </div>
+    </div>
+
+    <form class="login-form">
+
+        <div class="login__header">
+
+            <img src="./imagens/brain.svg" alt="brain" style="width: 150px;">
+
+            <h1>Jogo da Memoria</h1>
+
+        </div>
+
+        <input type="text" placeholder="Nome" class="login__input">
+        <button type="submit" class="login__button">Play</button>
+
+        <video autoplay loop muted id="background-video">
+
+            <source src="./imagens/game.mp4.mp4" type="video/mp4">
+        </video>
+    </form>
+
+</body>
+</html>

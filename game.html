@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/game.css">
+   
+    <title>Jogo da Memoria</title>
+</head>
+<body>
+    <main>
+        <header>
+            <span class="player"></span>
+            <span>Tempo: <span class="timer">00</span></span>
+        </header>
+        <div class="grid"></div>
+        <button id="restart-btn">Reiniciar Jogo</button>
+    </main>
+    <video autoplay loop muted id="background-video">
+        <source src="../imagens/floresta.mp4.mp4" type="video/mp4">
+    </video>
+
+    <a href="../index.html" class="back-to-home">Voltar</a>
+
+
+    <audio controls autoplay>
+        <source src="../musicas/Undertale - Fallen Down.mp4" type="audio/mpeg">
+        Seu navegador não suporta o elemento de áudio.
+      </audio>
+
+
+    <script src="../js/game.js"></script> 
+
+</body>
+</html>
